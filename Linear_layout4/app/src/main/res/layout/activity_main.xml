@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_weight="1"
+        android:background="#800080"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="137dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="83dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Mutiara Safitri"
+            android:textColor="#DDA0DD"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#DDA0DD"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#800080"
+                android:hint="Nama"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#800080"
+                android:hint="Password"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ulpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#800080"
+                android:hint="Ulang Password"
+                android:inputType="text" />
+
+            <Button
+                android:layout_width="102dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#800080"
+                android:textColor="#DDA0DD"
+                android:text="Daftar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
