@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini halaman utama Activity 1"
+        android:textAppearance="?android:attr/textAppearance"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_textdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data"/>
+
+    <Button
+        android:id="@+id/button_submitintent"
+        android:text="Intent with extra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
